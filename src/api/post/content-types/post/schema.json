@@ -17,16 +17,15 @@
       "maxLength": 150,
       "required": true
     },
+    "content": {
+      "type": "blocks",
+      "required": true
+    },
     "sumary": {
       "type": "text",
       "minLength": 1,
       "required": true,
       "unique": false
-    },
-    "content": {
-      "type": "richtext",
-      "required": true,
-      "minLength": 1
     },
     "banner": {
       "type": "media",
